@@ -1,0 +1,27 @@
+webpackHotUpdate("main",{
+
+/***/ "./client/app/app.js":
+/*!***************************!*\
+  !*** ./client/app/app.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.scss */ \"./client/app/app.scss\");\n/* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_app_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _header_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../header/header */ \"./client/header/header.js\");\n\n\n\n\nfunction App() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container-fluid\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Header, null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"i\", {\n    className: \"material-icons\"\n  }, \"face\")));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./client/app/app.js?");
+
+/***/ }),
+
+/***/ "./client/header/header.js":
+/*!*********************************!*\
+  !*** ./client/header/header.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module './app.scss'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n\nfunction Header() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"Header Test\")\n  /*\n  <nav className=\"navbar navbar-default\">\n      <div className=\"container-fluid\">\n          <div className=\"navbar-header\">\n              <button type = \"button\" className=\"navbar-toggle collapsed\"\n                      data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\"\n                      aria-expanded=\"false\">\n                  <span className=\"sr-only\">Toggle navigation</span>\n                  <span className=\"icon-bar\"></span>\n                  <span className=\"icon-bar\"></span>\n                  <span className=\"icon-bar\"></span>\n              </button>\n              <a className=\"navbar-brand\" href=\"/\">\n                  <img className=\"header-image\" src=\"~/Content/Images/MTG_Logo_rev.png\"/>\n                  <span className=\"text\">Magic Card Prices</span>\n              </a>\n          </div>\n          <!-- Collect the nav links, forms, and other content for toggling -->\n          <div className=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n              <ul className=\"nav navbar-nav\">\n                  <li>\n                      <a href=\"/Search\" id=\"searchLink\">\n                          <i className=\"fa fa-search\"></i>\n                          <span className=\"text\">Search</span>\n                      </a>\n                  </li>\n                  <li>\n                      <a href=\"/PriceVisualizer\" id=\"priceVisualizerLink\">\n                          <i className=\"fa fa-dollar\"></i>\n                          <span className=\"text\">Price Visualizer</span>\n                      </a>\n                  </li>\n                  <li>\n                      <a href=\"/PlaytestUtility\" id=\"playtestUtility\">\n                          <i className=\"fa fa-puzzle-piece\"></i>\n                          <span className=\"text\">Playtest Utility</span>\n                      </a>\n                  </li>\n                  <li>\n                      <a href=\"/PriceChanges\" id=\"priceChanges\">\n                          <i className=\"fa fa-area-chart\"></i>\n                          <span className=\"text\">Price Changes</span>\n                      </a>\n                  </li>\n                  <li role=\"separator\" className=\"divider\"></li>\n                  <li>\n                      <a href=\"/About\" id=\"aboutLink\">\n                          <i className=\"fa fa-info visible-xs-inline-block\"></i>\n                          <span className=\"text\">About</span>\n                      </a>\n                  </li>\n              </ul>\n          </div>\n      </div>\n  </nav>*/\n  ;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Header);\n\n//# sourceURL=webpack:///./client/header/header.js?");
+
+/***/ })
+
+})

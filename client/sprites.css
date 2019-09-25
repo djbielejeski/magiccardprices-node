@@ -1,0 +1,81 @@
+﻿/*.sprite { background: url('/public/sprites.png') no-repeat top left; width: 48px; height: 48px; display: inline-block;  } 
+.sprite.mythic { background-position: 0 -596px; width: 53px; height: 30px; } 
+.sprite.rare { background-position: 0 -720px; width: 53px; height: 30px; } 
+.sprite.uncommon-blueish { background-position: 0 -1242px; width: 53px; height: 30px; } 
+.sprite.uncommon { background-position: 0 -1282px; width: 53px; height: 30px; } 
+.sprite.common { background-position: 0 -300px; width: 53px; height: 30px; } 
+.sprite.land { background-position: 0 -556px; width: 53px; height: 30px; } 
+.sprite.template { background-position: 0 -1102px; width: 53px; height: 30px; } 
+
+.sprite.b { background-position: 0 0; width: 32px; height: 32px; } 
+.sprite.bg { background-position: 0 -42px; } 
+.sprite.bp { background-position: 0 -100px; } 
+.sprite.br { background-position: 0 -158px; } 
+.sprite.colorless { background-position: 0 -216px; width: 32px; height: 32px; } 
+.sprite.colorless-number { background-position: 0 -258px; width: 32px; height: 32px; } 
+.sprite.g { background-position: 0 -340px; width: 32px; height: 32px; } 
+.sprite.gp { background-position: 0 -382px; } 
+.sprite.gu { background-position: 0 -440px; } 
+.sprite.gw { background-position: 0 -498px; } 
+.sprite.q { background-position: 0 -636px; width: 32px; height: 32px; } 
+.sprite.r { background-position: 0 -678px; width: 32px; height: 32px; } 
+.sprite.rg { background-position: 0 -760px; } 
+.sprite.rp { background-position: 0 -818px; } 
+.sprite.rw { background-position: 0 -876px; } 
+.sprite.slash { background-position: 0 -934px; width: 32px; height: 32px; } 
+.sprite.snow { background-position: 0 -976px; width: 32px; height: 32px; } 
+.sprite.t { background-position: 0 -1018px; width: 32px; height: 32px; } 
+.sprite.tap { background-position: 0 -1060px; width: 32px; height: 32px; } 
+.sprite.u { background-position: 0 -1142px; width: 32px; height: 32px; } 
+.sprite.ub { background-position: 0 -1184px; } 
+.sprite.untap { background-position: 0 -1322px; width: 32px; height: 32px; } 
+.sprite.up { background-position: 0 -1364px; } 
+.sprite.ur { background-position: 0 -1422px; } 
+.sprite.w { background-position: 0 -1480px; width: 32px; height: 32px; } 
+.sprite.wb { background-position: 0 -1522px; } 
+.sprite.wp { background-position: 0 -1580px; } 
+.sprite.wu { background-position: 0 -1638px; }*/ 
+
+/* new sprites */
+.sprite { display: inline-block; }
+.sprite.uncommon { width: 53px; height: 30px; background: url('/public/sprites.png') -10px -10px; }
+.sprite.common { width: 53px; height: 30px; background: url('/public/sprites.png') -10px -60px;}
+.sprite.land { width: 53px; height: 30px; background: url('/public/sprites.png') -10px -110px;}
+.sprite.mythic { width: 53px; height: 30px; background: url('/public/sprites.png') -10px -160px;}
+.sprite.rare { width: 53px; height: 30px; background: url('/public/sprites.png') -10px -210px;}
+.sprite.template { width: 53px; height: 30px; background: url('/public/sprites.png') -10px -260px;}
+.sprite.uncommon-blueish { width: 53px; height: 30px; background: url('/public/sprites.png') -10px -310px;}
+
+.sprite.untap { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -360px;}
+.sprite.up { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -412px;}
+.sprite.ur { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -464px;}
+.sprite.w { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -516px;}
+.sprite.wb { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -568px;}
+.sprite.wp { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -620px;}
+.sprite.wu { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -672px;}
+.sprite.b { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -724px;}
+.sprite.bg { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -776px;}
+.sprite.bp { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -828px;}
+.sprite.br { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -880px;}
+.sprite.colorless { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -932px;}
+.sprite.colorless-number { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -984px;}
+.sprite.g { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1036px;}
+.sprite.gp { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1088px;}
+.sprite.gu { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1140px;}
+.sprite.gw { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1192px;}
+.sprite.q { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1244px;}
+.sprite.r { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1296px;}
+.sprite.rg { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1348px;}
+.sprite.rp { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1400px;}
+.sprite.rw { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1452px;}
+.sprite.slash { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1504px;}
+.sprite.snow { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1556px;}
+.sprite.t { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1608px;}
+.sprite.tap { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1660px;}
+.sprite.u { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1712px;}
+.sprite.ub { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1764px;}
+.sprite.two-w { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1816px; }
+.sprite.two-b { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1868px; }
+.sprite.two-g { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1920px; }
+.sprite.two-r { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -1972px; }
+.sprite.two-u { width: 32px; height: 32px; background: url('/public/sprites.png') -10px -2024px; }

@@ -1,0 +1,37 @@
+webpackHotUpdate("main",{
+
+/***/ "./client/header/header.js":
+/*!*********************************!*\
+  !*** ./client/header/header.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header.scss */ \"./client/header/header.scss\");\n/* harmony import */ var _header_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_header_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nfunction Header() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"Header Test\")\n  /*\n  <nav className=\"navbar navbar-default\">\n      <div className=\"container-fluid\">\n          <div className=\"navbar-header\">\n              <button type = \"button\" className=\"navbar-toggle collapsed\"\n                      data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\"\n                      aria-expanded=\"false\">\n                  <span className=\"sr-only\">Toggle navigation</span>\n                  <span className=\"icon-bar\"></span>\n                  <span className=\"icon-bar\"></span>\n                  <span className=\"icon-bar\"></span>\n              </button>\n              <a className=\"navbar-brand\" href=\"/\">\n                  <img className=\"header-image\" src=\"~/Content/Images/MTG_Logo_rev.png\"/>\n                  <span className=\"text\">Magic Card Prices</span>\n              </a>\n          </div>\n          <!-- Collect the nav links, forms, and other content for toggling -->\n          <div className=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n              <ul className=\"nav navbar-nav\">\n                  <li>\n                      <a href=\"/Search\" id=\"searchLink\">\n                          <i className=\"fa fa-search\"></i>\n                          <span className=\"text\">Search</span>\n                      </a>\n                  </li>\n                  <li>\n                      <a href=\"/PriceVisualizer\" id=\"priceVisualizerLink\">\n                          <i className=\"fa fa-dollar\"></i>\n                          <span className=\"text\">Price Visualizer</span>\n                      </a>\n                  </li>\n                  <li>\n                      <a href=\"/PlaytestUtility\" id=\"playtestUtility\">\n                          <i className=\"fa fa-puzzle-piece\"></i>\n                          <span className=\"text\">Playtest Utility</span>\n                      </a>\n                  </li>\n                  <li>\n                      <a href=\"/PriceChanges\" id=\"priceChanges\">\n                          <i className=\"fa fa-area-chart\"></i>\n                          <span className=\"text\">Price Changes</span>\n                      </a>\n                  </li>\n                  <li role=\"separator\" className=\"divider\"></li>\n                  <li>\n                      <a href=\"/About\" id=\"aboutLink\">\n                          <i className=\"fa fa-info visible-xs-inline-block\"></i>\n                          <span className=\"text\">About</span>\n                      </a>\n                  </li>\n              </ul>\n          </div>\n      </div>\n  </nav>*/\n  ;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Header);\n\n//# sourceURL=webpack:///./client/header/header.js?");
+
+/***/ }),
+
+/***/ "./client/header/header.scss":
+/*!***********************************!*\
+  !*** ./client/header/header.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./header.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./client/header/header.scss\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./header.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./client/header/header.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./header.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./client/header/header.scss\");\n\n        if (typeof newContent === 'string') {\n          newContent = [[module.i, newContent, '']];\n        }\n        \n        update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\n//# sourceURL=webpack:///./client/header/header.scss?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./client/header/header.scss":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./client/header/header.scss ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".navbar {\\n  border-radius: 0px; }\\n\\n.navbar-default {\\n  background-color: #0086C0;\\n  border-color: #008BFF;\\n  z-index: 1000; }\\n  .navbar-default .navbar-toggle {\\n    background-color: #fff; }\\n\\n.navbar-brand {\\n  color: #eee;\\n  font-size: 150%;\\n  line-height: 50px;\\n  padding: 0px 12px; }\\n\\n.navbar-header a, .nav a {\\n  color: #eee !important;\\n  font-size: 150%;\\n  cursor: pointer; }\\n\\n.nav a {\\n  box-shadow: inset 2px 0px 2px rgba(0, 0, 0, 0.25); }\\n\\n.nav a:hover {\\n  color: #fff;\\n  text-decoration: none; }\\n\\n.nav a:focus {\\n  outline: none;\\n  color: #eee; }\\n\\n.nav a.selected {\\n  color: #fff;\\n  background-color: #777; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./client/header/header.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ })
+
+})
