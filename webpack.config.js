@@ -1,66 +1,53 @@
-var path = require('path');
-const webpack = require('webpack');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+
+const outputDirectory = 'dist';
 
 module.exports = {
-    entry: [
-        './client/index.js'
-    ],
-    output: {
-        path: path.join(__dirname, 'public'),
-        publicPath: '/',
-        filename: 'bundle.js',
-    },
-    devServer: {
-        contentBase: './dist',
-    },
-    module: {
-        rules: [
-            {
-                test: /\.(js|jsx)$/,
-                exclude: /node-modules/,
-                use: {
-                    loader: "babel-loader",
-                    options: {
-                        presets: [
-                            "@babel/preset-env",
-                            "@babel/preset-react"
-                        ]
-                    }
-                }
-            },
-            {
-                test: /\.s[ac]ss$/i,
-                use: [
-                    // Creates `style` nodes from JS strings
-                    'style-loader',
-                    // Translates CSS into CommonJS
-                    'css-loader',
-                    // Compiles Sass to CSS
-                    'sass-loader',
-                ],
-            },
-            // Load fonts
-            {
-                test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[name].[ext]',
-                            outputPath: 'fonts/'
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    resolve: {
-        extensions: ['*', '.js', '.jsx']
-    },
-    plugins: [
-        new webpack.HotModuleReplacementPlugin()
-    ],
-    devServer: {
-        hot: true
+  entry: ['babel-polyfill', './src/client/index.js'],
+  output: {
+    path: path.join(__dirname, outputDirectory),
+    filename: 'bundle.js'
+  },
+  module: {
+    rules: [{
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
+      },
+      {
+        test: /\.scss$/,
+        use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader?limit=100000'
+      },
+      {
+        test: /\.(png|ico|json|txt)$/,
+        include: path.resolve(__dirname, ''),
+        loader: 'url-loader?limit=100000'
+      }
+    ]
+  },
+  resolve: {
+    extensions: ['*', '.js', '.jsx']
+  },
+  devServer: {
+    port: 3000,
+    open: true,
+    proxy: {
+      '/api': 'http://localhost:8080'
     }
+  },
+  plugins: [
+    new CleanWebpackPlugin([outputDirectory]),
+    new HtmlWebpackPlugin({
+      template: './public/index.html',
+      favicon: './public/favicon.ico',
+    })
+  ]
 };

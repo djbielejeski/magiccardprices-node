@@ -1,0 +1,61 @@
+.inline-mana-symbol {
+  vertical-align: middle;
+  line-height: 32px;
+  margin-right: 2px;
+  border-radius: 16px;
+
+  .sprite {
+    zoom: 0.6;
+    -moz-transform:scale(0.6);
+    -moz-transform-origin: 0 0;
+  }
+
+  &.colorless-number {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+.sprite { display: inline-block; }
+.sprite.uncommon { width: 53px; height: 30px; background: url(sprites.png) -10px -10px; }
+.sprite.common { width: 53px; height: 30px; background: url(sprites.png) -10px -60px;}
+.sprite.land { width: 53px; height: 30px; background: url(sprites.png) -10px -110px;}
+.sprite.mythic { width: 53px; height: 30px; background: url(sprites.png) -10px -160px;}
+.sprite.rare { width: 53px; height: 30px; background: url(sprites.png) -10px -210px;}
+.sprite.template { width: 53px; height: 30px; background: url(sprites.png) -10px -260px;}
+.sprite.uncommon-blueish { width: 53px; height: 30px; background: url(sprites.png) -10px -310px;}
+
+.sprite.untap { width: 32px; height: 32px; background: url(sprites.png) -10px -360px;}
+.sprite.up { width: 32px; height: 32px; background: url(sprites.png) -10px -412px;}
+.sprite.ur { width: 32px; height: 32px; background: url(sprites.png) -10px -464px;}
+.sprite.w { width: 32px; height: 32px; background: url(sprites.png) -10px -516px;}
+.sprite.wb { width: 32px; height: 32px; background: url(sprites.png) -10px -568px;}
+.sprite.wp { width: 32px; height: 32px; background: url(sprites.png) -10px -620px;}
+.sprite.wu { width: 32px; height: 32px; background: url(sprites.png) -10px -672px;}
+.sprite.b { width: 32px; height: 32px; background: url(sprites.png) -10px -724px;}
+.sprite.bg { width: 32px; height: 32px; background: url(sprites.png) -10px -776px;}
+.sprite.bp { width: 32px; height: 32px; background: url(sprites.png) -10px -828px;}
+.sprite.br { width: 32px; height: 32px; background: url(sprites.png) -10px -880px;}
+.sprite.colorless { width: 32px; height: 32px; background: url(sprites.png) -10px -932px;}
+.sprite.colorless-number { width: 32px; height: 32px; background: url(sprites.png) -10px -984px;}
+.sprite.g { width: 32px; height: 32px; background: url(sprites.png) -10px -1036px;}
+.sprite.gp { width: 32px; height: 32px; background: url(sprites.png) -10px -1088px;}
+.sprite.gu { width: 32px; height: 32px; background: url(sprites.png) -10px -1140px;}
+.sprite.gw { width: 32px; height: 32px; background: url(sprites.png) -10px -1192px;}
+.sprite.q { width: 32px; height: 32px; background: url(sprites.png) -10px -1244px;}
+.sprite.r { width: 32px; height: 32px; background: url(sprites.png) -10px -1296px;}
+.sprite.rg { width: 32px; height: 32px; background: url(sprites.png) -10px -1348px;}
+.sprite.rp { width: 32px; height: 32px; background: url(sprites.png) -10px -1400px;}
+.sprite.rw { width: 32px; height: 32px; background: url(sprites.png) -10px -1452px;}
+.sprite.slash { width: 32px; height: 32px; background: url(sprites.png) -10px -1504px;}
+.sprite.snow { width: 32px; height: 32px; background: url(sprites.png) -10px -1556px;}
+.sprite.t { width: 32px; height: 32px; background: url(sprites.png) -10px -1608px;}
+.sprite.tap { width: 32px; height: 32px; background: url(sprites.png) -10px -1660px;}
+.sprite.u { width: 32px; height: 32px; background: url(sprites.png) -10px -1712px;}
+.sprite.ub { width: 32px; height: 32px; background: url(sprites.png) -10px -1764px;}
+.sprite.two-w { width: 32px; height: 32px; background: url(sprites.png) -10px -1816px; }
+.sprite.two-b { width: 32px; height: 32px; background: url(sprites.png) -10px -1868px; }
+.sprite.two-g { width: 32px; height: 32px; background: url(sprites.png) -10px -1920px; }
+.sprite.two-r { width: 32px; height: 32px; background: url(sprites.png) -10px -1972px; }
+.sprite.two-u { width: 32px; height: 32px; background: url(sprites.png) -10px -2024px; }
