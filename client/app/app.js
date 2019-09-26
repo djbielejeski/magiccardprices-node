@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="container-fluid">
         <Header />
+        <div>This "Face" should actually be a face</div>
         <div>
             <i className="material-icons">face</i>
         </div>
